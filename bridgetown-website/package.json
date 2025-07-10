@@ -22,7 +22,7 @@
     "@ruby2js/esbuild-plugin": "^1.0.0",
     "@shoelace-style/shoelace": "^2.2.0",
     "bridgetown-quick-search": "^3.0.3",
-    "hotkeys-js": "^3.8.7",
+    "hotkeys-js": "^3.13.14",
     "smoothscroll-polyfill": "^0.4.4"
   },
   "resolutions": {
