@@ -6,7 +6,7 @@ gem "rake", "~> 13.0"
 gem "yard", "~> 0.9"
 
 group :development do
-  gem "solargraph"
+  gem "solargraph", ">= 0.51.0"
 end
 
 group :test do
@@ -18,7 +18,7 @@ group :test do
   gem "minitest-stub_any_instance"
   gem "nokogiri", "~> 1.7"
   gem "nokolexbor"
-  gem "rack-test"
+  gem "rack-test", ">= 2.2.0"
   gem "rubocop-bridgetown", "~> 0.6", require: false
   gem "shoulda"
   gem "simplecov"
