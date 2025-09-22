@@ -6,7 +6,7 @@ gem "rake", "~> 13.0"
 gem "yard", "~> 0.9"
 
 group :development do
-  gem "solargraph"
+  gem "solargraph", ">= 0.51.0"
 end
 
 group :test do
