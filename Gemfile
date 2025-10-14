@@ -18,7 +18,7 @@ group :test do
   gem "minitest-stub_any_instance"
   gem "nokogiri", "~> 1.7"
   gem "nokolexbor"
-  gem "rack-test"
+  gem "rack-test", ">= 2.2.0"
   gem "rubocop-bridgetown", "~> 0.6", require: false
   gem "shoulda"
   gem "simplecov"
